@@ -11,7 +11,7 @@ body {
 }
 
 p {
-  color: black;
+  color: white;
   font-family: Helvetica;
 }
 
@@ -19,7 +19,17 @@ li {
   color: white;
   font-family: Helvetica;
 }
-.spalte {
+.space {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+p {
+  color: white;
+  font-family: Helvetica;
+}
+
+.spalte img {
   max-width: 33em;
   width: 95%;
 }
