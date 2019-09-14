@@ -19,3 +19,7 @@ li {
   color: white;
   font-family: Helvetica;
 }
+.spalte {
+  max-width: 33em;
+  width: 95%;
+}
