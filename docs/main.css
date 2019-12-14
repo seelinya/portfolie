@@ -1,161 +1,303 @@
+
 html {
   line-height: 1.6; /* 1 */
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Roboto', sans-serif;
   hyphens: auto;
   font-size: 15px;
+  color: white;
+}
+
+body {
+  background-color: #white;
 }
 
 h1 {
-  color: black;
-  font-family: Didot;
-  font-weight: bold;
-  font-size: 40px;
-  padding-top: 2px;
-  padding-right: 50px;
-  padding-bottom: 15px;
-  padding-left: 300px;
-  }
-
-}
-head {
-  background-color: #white;
-}
-
-div1 {
-  width: 50px;
-  height: 300px;
-  padding: 10px;
-  border: 1px solid black;
-  position: relative;
-  top: 30px;
-  left: 10px;
-  font-family: Helvetica;
-  font-size: 8px;
-  background-color: #F0F0F0
-  }
-
-  div2 {
-    width: 50px;
-    height: 300px;
-    padding: 10px;
-    border: 1px solid black;
-    position: relative;
-    top: 30px;
-    left: 40px;
-    font-family: Helvetica;
-    font-size: 8px;
-    background-color: #F0F0F0
-    }
-
-    div3 {
-      width: 50px;
-      height: 300px;
-      padding: 10px;
-      border: 1px solid black;
-      position: relative;
-      top: 30px;
-      left: 70px;
-      font-family: Helvetica;
-      font-size: 8px;
-      background-color: #F0F0F0
-      }
-
-body {
-  background-color: white;
-}
-
-p {
-  color: black;
-  font-family: Helvetica;
-  text-align:justify;
-  text-indent: each-line: 4em;
-}
-p1 {
-  color: black;
-  font-family: Helvetica;
-  font-weight: bold;
-  text-indent: each-line: 4em;
-
-}
-p2 {
-  color: black;
-  font-family: Helvetica;
-  font-style: oblique;
-  position: relative;
-  left: 50px;
-  width: 95%;
-  background-color: #white;
-}
-p3 {
-    color: black;
-    font-family: Helvetica;
-    font-style: oblique;
-    width: 95%;
-}
-p3 {
-  color: black;
-  font-family: Helvetica;
-  font-style: oblique;
-  font-size: 9px;
-  position: relative;
-  left: 50px;
-  width: 95%;
-  background-color: #white;
-
-li {
   color: white;
-  font-family: Helvetica;
+  font-family: Adam;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  padding-top: 6rem;
+  text-align: center;
+  }
 
-}
-.space {
-  margin-top: 30px;
-  margin-bottom: 40px;
-}
+  p {
+    color: black;
+    margin-left: 4rem;
+    font-weight: lighter;
+    letter-spacing: 0.02rem;
+    margin-right: 4rem;
+  }
 
-p {
+b {
+  font-style: italic;
   color: black;
-  font-family: Helvetica;
-  position: relative;
-  left: 50px;
-  width: 95%;
+  font-weight: lighter;
 }
+
+c {
+  color: black;
+  font-weight: lighter;
+  font-size: 0.7rem;
+  font-style: italic;
+}
+
+
+  h2 {
+    color: #A2876A;
+    font-weight: lighter;
+    padding-left: 2rem;
+    letter-spacing: 0.05em;
+  }
+
+a {
+  color: white;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+}
+
+
+p1{
+  color: black;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+p2{
+  font-style: italic;
+}
+
+nav{
+    padding-bottom: 6rem;
+    text-align: center;
+  }
+
+img {
+  max-width: 100%;
+}
+
+
+
+.dark {
+  color: #A2876A;
+  font-size: 0.8rem;
+}
+
+.center {
+  text-align: center;
+  font-size: .7rem;
+}
+
+.inner {
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+  border: 0.01rem solid #A2876A;
+  width: 19rem;
+  color: #A2876A;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 0.7rem;
+  letter-spacing: 0.05rem;
+  margin: 0 auto;
+  display:block;
+  vertical-align: middle
+
+}
+summary {
+  padding: 20px 30px 6px 16px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight; lighter;
+  color: black;
+  display: block;
+  margin-left: 4rem;
+}
+
+.box{
+  background-image: url('./z_bilder/flohmarkt.jpg');
+  background-size:100%;
+}
+
+.grid {
+  padding-top: 20px;
+  width:100%;
+  max-width:50rem;
+
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-between;
+}
+
+.image {
+  padding-bottom: 4rem;
+}
+
 
 .spalte{
   flex-grow: 1;
  flex-shrink: 1;
  flex-basis: 5.58333333%;
- max-width: 5.58333333%;
+ max-width: 100%;
  background-color: white;
- $col-breite: (100 - 33) / 12;
+ /* $col-breite: (100 - 30) / 10; */
+ background-color: yellow;
 }
 
-.grid{
-    width:32rem;
-    margin:0 auto;
+
+.spalte-links {
+  width: 35%;
+  background-color: blue;
+
+}
+
+
+.content-1-2 {
+  width: 47%;
+
+
+}
+
+.content-1 {
+  width: 100%;
+}
+
+
+.content-1-3 {
+  width: 31.333%;
+}
+
+.content-2-3 {
+  width: 65.666%;
+}
+
+
+.spalte-rechts {
+  width: 60%;
+  background-color: gray;
+}
+
+.spalte4{
+ flex-basis: 48%;
+ max-width: 48%;
+ height: 20em;
+ background-image: linear-gradient(
+      to right,
+      #FED2CF,
+      #fff,
+      #B5D5D8);
+}
+.spalte8{
+ flex-basis: 48%;
+ max-width: 47%;
+ height: 20em;
+}
+
+.image1 {
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transform: translate(0, 5rem);
+   position: relative;
+   z-index: 3;
+ }
+
+ .image1 img {
+   height: 15vmax;
+   padding-bottom: 2.5rem;
+ }
+
+.hero-background {
+   height: 300px;
+   background: rgba(161,145,117,.3);
+   position: relative;
+   z-index: 2;
+}
+
+.hero-text {
+ text-align: center;
+ position: absolute;
+ top: 30%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ margin: 0 auto;
+ display:block;
+ vertical-align: middle
+ opacity: 100%;
+ z-index: 5;
+}
+
+.hero-fusszeilentext {
+  color: #A2876A;
+  font-style: lighter;
+  font-size: 0.8rem;
+  padding-top: -2rem;
+  margin: 0 auto;
+  opacity: 100%;
+  z-index: 7;
+}
+
+
+.sidenav {
+    height: 20rem;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin-left: 2.5rem;
+    color: black;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 20px 30px 6px 16px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight; lighter;
+    color: black;
+    display: block;
+}
+
+
+.details1 summary:hover {
+    color: #A2876A;
+}
+
+.copyright {
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .content-1-3 {
+    width: 100%;
+  }
+
+  .content-2-3 {
+    width: 100%%;
+  }
+
+  p {
+    color: black;
+    font-weight: lighter;
+    letter-spacing: 0.02rem;
+    margin-right: 4rem;
+  }
+
+  .grid {
+    padding-top: 20px;
+    width:100%;
+    max-width:20rem;
+    margin-left:6rem;
+    margin-right:2rem;
     display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-    background-color: white;
+    justify-content: space-between;
+    background-color: red;
   }
 
-  .spalte8{
-   flex-basis: 65.58333333%;
-   max-width: 65.58333333%;
-   height: 20em;
-  }
-
-  .spalte4{
-   flex-basis: 31.33%;
-   max-width: 31.33%;
-   height: 20em;
-   background-image: linear-gradient(
-        to right,
-        #FED2CF,
-        #fff,
-        #B5D5D8);
-  }
-
-img {
-  width: 95%;
-  height: 20em;
 }
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
