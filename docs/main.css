@@ -90,8 +90,8 @@ img {
 }
 
 .inner {
-  padding-top: .7rem;
-  padding-bottom: .7rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   border: 0.01rem solid #A2876A;
   width: 19rem;
   color: #A2876A;
@@ -269,7 +269,7 @@ summary {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 920px) {
 
   .content-1-3 {
     width: 100%;
@@ -284,18 +284,37 @@ summary {
     font-weight: lighter;
     letter-spacing: 0.02rem;
     margin-right: 4rem;
+    margin-left: 2rem;
+}
+
+  p1 {
+    color: black;
+    font-weight: lighter;
+    letter-spacing: 0.02rem;
+    margin-right: 4rem;
+    margin-left: 2rem;
   }
 
   .grid {
     padding-top: 20px;
-    width:100%;
-    max-width:20rem;
+    width:75%;
     margin-left:6rem;
-    margin-right:2rem;
+    margin-right: 3rem;
+    padding-right: 2rem;
     display: flex;
     justify-content: space-between;
-    background-color: red;
+    background-color: white;
   }
+
+  h1 {
+    color: white;
+    font-family: Adam;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    padding-top: 6rem;
+    text-align: center;
+    }
 
 }
 
