@@ -82,7 +82,7 @@ c {
 a {
   color: #fe5b54;
   font-size: 0.8rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
   text-decoration: none;
 }
 
@@ -373,8 +373,9 @@ img.beispiel3:hover {
   position: relative;
   width: 29%;
   height: 350px;
+  margin: 0 auto;
   float: left;
-
+  padding-bottom: 1rem;
   margin:0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -389,6 +390,7 @@ img.beispiel3:hover {
   float: left;
   margin:0 auto;
   display: flex;
+  padding-bottom: 1rem;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -399,8 +401,8 @@ img.beispiel3:hover {
   width: 100%;
   height: 530px;
   float: left;
-
-  margin:0 auto;
+  padding-bottom: 1rem;
+  margin:0 auto 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -685,8 +687,7 @@ summary {
       width: 100%;
       height: 1000px;
       float: left;
-      padding-bottom: 0rem;
-
+      padding-bottom: 1rem;
       margin:0 auto;
       display: flex;
       flex-wrap: wrap;
@@ -699,7 +700,7 @@ summary {
       width: 100%;
       height: 500px;
       float: left;
-
+      padding-bottom: 1rem;
       margin:0 auto;
       display: flex;
       flex-wrap: wrap;
@@ -713,6 +714,7 @@ summary {
       height: 400px;
       float: left;
       margin:0 auto;
+      padding-bottom: 1rem;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
